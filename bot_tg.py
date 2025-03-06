@@ -10,7 +10,7 @@ from aiogram.types import ReplyKeyboardMarkup, KeyboardButton, InlineKeyboardMar
 
 # Токены (замени на свои)
 TELEGRAM_BOT_TOKEN = "7449130360:AAFQbDb-lD_W9vwGysj4STdUpc1ADj719ro"
-GEMINI_API_KEY = "AIzaSyDZ8n5GAU1SIFVhi8n4nAZHazUtJK6rK6A,"
+GEMINI_API_KEY = "AIzaSyDZ8n5GAU1SIFVhi8n4nAZHazUtJK6rK6A"
 
 genai.configure(api_key=GEMINI_API_KEY)
 bot = Bot(token=TELEGRAM_BOT_TOKEN)
